@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Pacifico&display=swap");
+body {
+  background-image: url("../asset/bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .layer {
+  position: relative;
+  top: -40px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+body .layer h2 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+body .layer label {
+  font-family: "Handlee", cursive;
+}
+body .layer button, body .layer a {
+  border: 0;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  background-color: #FDD250;
+  font-family: "Handlee", cursive;
+  font-weight: 1900;
+  cursor: pointer;
+}
+body .layer a {
+  padding: 0;
+}
+
+.gambar {
+  transform: scale(0.8);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-image: url("../asset/donat.jpeg");
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
