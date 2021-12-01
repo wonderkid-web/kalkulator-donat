@@ -15,8 +15,8 @@
     let lakuBesar = mBesar - tBesar;
     let lakuKecil = mKecil - tKecil;
 
-    let totalBesar = lakuBesar * 2500;
-    let totalKecil = lakuKecil * 20000;
+    let totalBesar = lakuBesar * 3000;
+    let totalKecil = lakuKecil * 22000;
     let omset = totalBesar + totalKecil;
     let tanggal = new Date();
 
